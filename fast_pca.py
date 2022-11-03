@@ -120,7 +120,6 @@ class FastPCA:
 
         self.t_basis_expansion = 0
         self.t_ctf_expansion = 0
-        self.t_cov_est_total = 0
         self.t_cov_est = 0
         self.t_denoise = 0
         self.t_whiten = 0

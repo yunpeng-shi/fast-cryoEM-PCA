@@ -18,5 +18,23 @@ After installing all the dependencies, run demo code [``demo_synthetic_data_whit
 
 ## A Variety of Features
 
+```
+default_options = {
+    "whiten": True,
+    "noise_psd": None,
+    "store_noise_psd": True,
+    "noise_var": None,
+    "radius": 0.9,
+    "batch_size": 1000,
+    "single_pass": True,
+    "single_whiten_filter": False,
+    "flip_sign": False,
+    "correct_contrast": False,
+    "subtract_background": False,
+    "dtype": np.float64,
+    "verbose": True
+}
+
+```
 
 

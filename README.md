@@ -40,10 +40,15 @@ default_options = {
 Here we briefly explain each one:
 
 ``whiten``: whether or not whiten the image
-"noise_psd": if choose ``None``, then noise power spectrum (radial functions) will be estimated. The radial function representation largely reduces the memory requirement, and it also reduces the noise in psd estimation by averaging over the rings (psd on the rings are estimated by NUFFT).
-"store_noise_psd": True,
-"noise_var": None,
-"radius": 0.9,
+
+``noise_psd``: if choose ``None``, then noise power spectrum (radial functions) will be estimated. The radial function representation largely reduces the memory requirement, and it also reduces the noise in psd estimation by averaging over the rings (psd on the rings are estimated by NUFFT).
+
+``store_noise_psd``: whether stores noise psd (1-D radial functions)
+
+``noise_var``: noise variance, automatically set as 1 if whiten is true
+
+``radius``: 
+
 "batch_size": 1000,
 "single_pass": True,
 "single_whiten_filter": False,

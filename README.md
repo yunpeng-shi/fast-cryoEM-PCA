@@ -65,9 +65,9 @@ Here we briefly explain each one:
 
 ``verbose``: whether output progress when running code
 
-## Flexible Input
+## Flexible Usage of Functions
 
-Our covariance solver also allows flexible input. All of the following three 
+Our covariance solver also allows flexible input. All of the following three methods can be used to call our covariance estimator and denoiser. If some arguments are missing, they will be automatically estimated.
 
 
 code example 1: run in three steps, two passes over data for covariance estimation

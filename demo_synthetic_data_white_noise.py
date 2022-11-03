@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import mrcfile
 
 from fle_2d_single import FLEBasis2D
-from fast_pca import FastPCA
+from fast_cryo_pca import FastPCA
 import logging
 import os
 

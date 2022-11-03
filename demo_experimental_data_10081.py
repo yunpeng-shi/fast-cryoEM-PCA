@@ -6,7 +6,7 @@ import logging
 from aspire.source.relion import RelionSource
 import numpy as np
 from fle_2d_single import FLEBasis2D
-from fast_pca import FastPCA
+from fast_cryo_pca import FastPCA
 
 logger = logging.getLogger(__name__)
 # Set input path and files and initialize other parameters

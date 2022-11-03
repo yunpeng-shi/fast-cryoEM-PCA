@@ -14,7 +14,7 @@ Our code relies on two packages: [``ASPIRE-python``](https://github.com/Computat
 
 ## Tutorial Code
 
-After installing all the dependencies, run demo code [``demo_synthetic_data_white_noise.py``](https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/demo_synthetic_data_white_noise.py) and [``demo_synthetic_data_colored_noise.py``](https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/demo_synthetic_data_colored_noise.py) for synthetic simulations with white and colored noise respectively. To run demo code [``demo_experimental_data_10081.py``](https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/demo_experimental_data_10081.py) for experimental data, download picked particle data from 
+After installing all the dependencies, run demo code [``demo_synthetic_data_white_noise.py``](https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/demo_synthetic_data_white_noise.py) and [``demo_synthetic_data_colored_noise.py``](https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/demo_synthetic_data_colored_noise.py) for synthetic simulations with white and colored noise respectively. To run demo code [``demo_experimental_data_10081.py``](https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/demo_experimental_data_10081.py) for experimental data, download picked particle data from [EMPIAR-10081](https://www.ebi.ac.uk/empiar/EMPIAR-10081/) (use the one of size 13.7 GB) to the directory ``./data/Particles/micrographs/``
 
 
 

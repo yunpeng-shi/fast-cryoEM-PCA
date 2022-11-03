@@ -9,7 +9,7 @@ Our code provides a fast implementation of covariance estimation based on the re
 
 ## Installation
 
-Our code relies on two packages: ``[ASPIRE-python](https://github.com/ComputationalCryoEM/ASPIRE-Python)``
+Our code relies on two packages: [``ASPIRE-python``](https://github.com/ComputationalCryoEM/ASPIRE-Python) for single particle reconstruction and [``FLE``](https://github.com/nmarshallf/fle_2d) for fast Fourier-Bessel expansion.
 
 
 

@@ -18,6 +18,8 @@ After installing all the dependencies, run demo code [``demo_synthetic_data_whit
 
 ## A Variety of Features
 
+Our covariance solver offers a variety of options:
+
 ```
 default_options = {
     "whiten": True,
@@ -34,7 +36,6 @@ default_options = {
     "dtype": np.float64,
     "verbose": True
 }
-
 ```
 
 

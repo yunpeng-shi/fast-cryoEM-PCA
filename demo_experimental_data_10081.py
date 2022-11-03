@@ -10,8 +10,8 @@ from fast_pca import FastPCA
 
 logger = logging.getLogger(__name__)
 # Set input path and files and initialize other parameters
-DATA_FOLDER = 'your directory/10081/data'
-STARFILE_IN = 'your directory/10081/data/particle_stacks/data.star'
+DATA_FOLDER = './data'
+STARFILE_IN = './data/particle_stacks/data.star'
 
 MAX_ROWS = None
 k_list = np.arange(0, 50000, 100)

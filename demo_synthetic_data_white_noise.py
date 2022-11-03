@@ -22,7 +22,7 @@ from aspire.operators import RadialCTFFilter
 
 logger = logging.getLogger(__name__)
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), ".")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "./data/synthetic")
 
 #######################################
 ## Parameters

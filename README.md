@@ -47,14 +47,21 @@ Here we briefly explain each one:
 
 ``noise_var``: noise variance, automatically set as 1 if whiten is true
 
-``radius``: 
+``radius``: radius of mask used to estimate noise psd and background mean/variance. maximum value is 1.
 
-"batch_size": 1000,
-"single_pass": True,
-"single_whiten_filter": False,
-"flip_sign": False,
-"correct_contrast": False,
-"subtract_background": False,
-"dtype": np.float64,
-"verbose": True
+``batch_size``: batch size for loading image data; useful when the number of images is large.
+
+``single_pass``: whether estimate mean and covariance together (so only one pass over data), otherwise estimate mean and then covariance (two passes over data)
+
+``single_whiten_filter``: whether use only one whiten filter for all images. If choose ``False``, then whiten image by defocus groups.
+
+``flip_sign``: whether flip sign when loading raw images. A common choice is ``True`` for raw experimental images.
+
+``correct_contrast``: whether correct and estimate image amplitude contrast.
+
+``subtract_background``: whether estimate and subtract background mean
+
+``dtype``: single or double precision
+
+``verbose``: whether output progress when runing code
 

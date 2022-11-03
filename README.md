@@ -7,5 +7,9 @@ Our code provides a fast implementation of covariance estimation based on the re
 <img src="https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/time.png" width="500" height="200">
 <img src="https://github.com/yunpeng-shi/fast-cryoEM-PCA/blob/main/denoise.png" width="500" height="200">
 
+## Installation
+
+Our code relies on two packages: ``ASPIRE"
+
 
 

@@ -18,7 +18,7 @@ from aspire.operators import RadialCTFFilter, ArrayFilter
 
 logger = logging.getLogger(__name__)
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), ".")  # the directory of the clean volume data
+DATA_DIR = os.path.join(os.path.dirname(__file__), "./data/synthetic")  # the directory of the clean volume data
 
 
 #######################################

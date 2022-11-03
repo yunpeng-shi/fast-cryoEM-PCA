@@ -84,7 +84,7 @@ mean_est, covar_est = fast_pca.estimate_mean_covar()
 results = fast_pca.denoise_images(mean_est=mean_est, covar_est=covar_est, denoise_options=denoise_options)
 ```
 
-Example 3: Combine all steps in one-line of code (equivalent to example 2)
+Example 3: combine all steps in one-line of code (equivalent to example 2)
 ```
 results = fast_pca.denoise_images(denoise_options=denoise_options)
 ```

@@ -63,5 +63,5 @@ Here we briefly explain each one:
 
 ``dtype``: single or double precision
 
-``verbose``: whether output progress when runing code
+``verbose``: whether output progress when running code
 

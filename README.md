@@ -41,7 +41,7 @@ Here we briefly explain each one:
 
 ``whiten``: whether or not whiten the image
 
-``noise_psd``: if choose ``None``, then noise power spectrum (radial functions) will be estimated. The radial function representation (1-D data) largely reduces the memory requirement, and it also reduces the noise in psd estimation by averaging over the rings (psd on the rings are estimated by NUFFT).
+``noise_psd``: if choose ``None``, then noise power spectrum (radial functions) will be estimated. The radial function representation (1-D data) largely reduces the memory requirement, and it also reduces the noise in the psd estimation by averaging over the rings (psd on the rings are estimated by NUFFT).
 
 ``store_noise_psd``: whether stores noise psd (1-D radial functions)
 

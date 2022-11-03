@@ -70,6 +70,7 @@ np.save('your directory/output/10081/imgs_est.npy', results["denoised_images"])
 np.save('your directory/output/10081/img_idx_list.npy', results["image_indices_list"]) 
 # the k-th value in the following list is the index, within the raw images, of the first image of the k_list[k]-th defocus group
 np.save('your directory/output/10081/denoise_idx_start.npy', results["image_indices_start"])
+# the k-th value in the following list is the number of saved images of the k_list[k]-th defocus group
 np.save('your directory/output/10081/denoise_idx_num.npy', results["image_indices_number"])
 np.save('your directory/output/10081/covar_est.npy', fast_pca.covar_est)
 np.save('your directory/output/10081/contrast_est.npy', fast_pca.contrast_est) # save individual amplitude contrast

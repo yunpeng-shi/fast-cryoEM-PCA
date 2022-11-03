@@ -9,7 +9,7 @@ Our code provides a fast implementation of covariance estimation based on the re
 
 ## Installation
 
-Our code relies on two packages: ``ASPIRE"
+Our code relies on two packages: ``[ASPIRE-python](https://github.com/ComputationalCryoEM/ASPIRE-Python)``
 
 
 

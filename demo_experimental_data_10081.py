@@ -5,7 +5,7 @@ Demo Code for Fast PCA on experimental data (EMPIAR-10081)
 import logging
 from aspire.source.relion import RelionSource
 import numpy as np
-from fle_2d import FLEBasis2D
+from fle_2d_single import FLEBasis2D
 from fast_pca import FastPCA
 
 logger = logging.getLogger(__name__)

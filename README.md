@@ -70,7 +70,7 @@ Here we briefly explain each one:
 Our covariance solver also allows flexible input. All of the following three methods can be used to call our covariance estimator and denoiser. If some arguments are missing, they will be automatically estimated.
 
 
-example 1: run in three steps, two passes over data for covariance estimation
+Example 1: run in three steps, two passes over data for covariance estimation
 
 ```
 mean_est = fast_pca.estimate_mean()
@@ -78,13 +78,13 @@ _, covar_est = fast_pca.estimate_mean_covar(mean_est=mean_est)
 results = fast_pca.denoise_images(mean_est=mean_est, covar_est=covar_est, denoise_options=denoise_options)
 ```
 
-example 2: single pass over data (combine mean and covariance estimation)
+Example 2: single pass over data (combine mean and covariance estimation)
 ```
 mean_est, covar_est = fast_pca.estimate_mean_covar()
 results = fast_pca.denoise_images(mean_est=mean_est, covar_est=covar_est, denoise_options=denoise_options)
 ```
 
-example 3: Combine all steps in one-line of code (equivalent to example 2)
+Example 3: Combine all steps in one-line of code (equivalent to example 2)
 ```
 results = fast_pca.denoise_images(denoise_options=denoise_options)
 ```

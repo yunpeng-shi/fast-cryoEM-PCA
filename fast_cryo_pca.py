@@ -406,6 +406,7 @@ class FastPCA:
 
 
                 unique_val_l = unique_val[ctf_batch_start[l]: ctf_batch_start[l + 1]]
+                unique_val_l = unique_val_l.astype(int)
                 voltage_list = np.array([h_ctf[k].voltage for k in unique_val_l])
                 cs_list = np.array([h_ctf[k].Cs for k in unique_val_l])
                 alpha_list = np.array([h_ctf[k].alpha for k in unique_val_l])

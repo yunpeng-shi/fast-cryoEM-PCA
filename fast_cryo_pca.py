@@ -296,7 +296,7 @@ class FastPCA:
             coeffs_l = basis.to_angular_order(coeffs_eig_l.T).T
             h_idx_l = h_idx[batch_start[l]:batch_start[l + 1]]
             unique_val, unique_ind, unique_count = np.unique(h_idx_l, return_inverse=True, return_counts=True)
-
+            unique_val = unique_val.astype(int)
             voltage_list = np.array([h_ctf[k].voltage for k in unique_val])
             cs_list = np.array([h_ctf[k].Cs for k in unique_val])
             alpha_list = np.array([h_ctf[k].alpha for k in unique_val])
